@@ -236,7 +236,8 @@ ul,li{
 	font-weight:400;
 	padding-left:20px;
 	color:#666666;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
+	margin-bottom: 10px;
 }
 
 .list-style-three li:before{
@@ -10996,7 +10997,8 @@ button:focus{
 	font-weight:700;
 	cursor:pointer;
 	line-height:1.6em;
-	padding:22px 0px 23px 80px;
+	/* padding:22px 0px 23px 80px; */
+	padding:26px 0px 26px 80px;
 	transition:all 500ms ease;
 	text-transform:capitalize;
 	border-bottom:2px solid #dddddd;
@@ -11048,7 +11050,8 @@ button:focus{
 
 .updated-services-section .services-tabs .tabs-content .content-column .inner-column{
 	position:relative;
-	padding:65px 50px 60px 10px;
+	/* padding:65px 50px 60px 10px; */
+	padding:35px 50px 30px 10px;
 }
 
 .updated-services-section .services-tabs .tabs-content .content-column h2{
@@ -11076,7 +11079,8 @@ button:focus{
 	line-height:1.9em;
 	color:#666666;
 	font-size:14px;
-	margin-bottom:35px;
+	/* margin-bottom:35px; */
+	margin-bottom:25px;
 }
 
 .updated-services-section .services-tabs .tabs-content .content-column .theme-btn{
@@ -11408,6 +11412,9 @@ button:focus{
 .updated-work-block .inner-block .image-column .image .content h3 a{
 	position:relative;
 	color:#ffffff;
+	background-color: #00000040;
+	padding:5px;
+	display: inline-block;
 }
 
 .updated-work-block .inner-block .content-column{
@@ -11577,7 +11584,8 @@ button:focus{
 	position: absolute;
 	left: 52px;
 	content:counter(slides-num);
-	display: inline-block;
+	display:none;
+	/* display: inline-block; */
 	line-height: 30px;
 	font-size: 16px;
 	font-weight: 700;
@@ -11585,7 +11593,8 @@ button:focus{
 }
 
 .updated-work-section .owl-dot {
-	display: inline-block;
+	display:none;
+	/* display: inline-block; */
 	counter-increment: slides-num;
 }
 
