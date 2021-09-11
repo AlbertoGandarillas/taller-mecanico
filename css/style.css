@@ -1506,7 +1506,7 @@ button:focus{
 }
 
 .header-style-four .header-lower{
-	background-color: transparent;
+	background-color: #222222;
 }
 
 .header-style-four .header-top{
@@ -1608,7 +1608,7 @@ button:focus{
 	font-weight: 600;
 	padding: 15px 0;
 	font-size: 16px;
-	color: #36404b;
+	color: #ffffff;
 }
 
 .header-style-four .main-menu .navigation > li:hover > a,
@@ -10223,6 +10223,7 @@ button:focus{
 	width:100%;
 	padding:0px 0px;
 	text-align:center;
+	margin-left: 10px;
 }
 
 .main-header-bar .social-links{
