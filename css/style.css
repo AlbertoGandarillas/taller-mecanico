@@ -9556,6 +9556,7 @@ button:focus{
 .login-section{
 	position:relative;
 	padding:120px 0px 150px;
+	margin-left:600px;
 }
 
 .login-section h2{
